@@ -1,5 +1,6 @@
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
+import ContactForm from '@/components/ContactForm';
 import { Card } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
@@ -270,6 +271,15 @@ const Index = () => {
               Start Your Journey Today
             </a>
           </Button>
+        </div>
+      </section>
+
+      {/* Contact Form Section */}
+      <section className="py-16 bg-muted/30">
+        <div className="container mx-auto px-4">
+          <div className="max-w-2xl mx-auto">
+            <ContactForm />
+          </div>
         </div>
       </section>
 

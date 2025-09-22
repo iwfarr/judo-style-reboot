@@ -13,6 +13,8 @@ const Navigation = () => {
     { path: '/', label: 'Home' },
     { path: '/history', label: 'History' },
     { path: '/kids', label: 'Kids Program' },
+    { path: '/location', label: 'Location' },
+    { path: '/contact', label: 'Contact Us' },
   ];
 
   return (
