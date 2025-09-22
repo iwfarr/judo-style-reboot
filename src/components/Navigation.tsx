@@ -85,6 +85,17 @@ const Navigation = () => {
                   {link.label}
                 </Link>
               ))}
+              
+              {/* Training Times Section */}
+              <div className="py-2 border-t border-border">
+                <h4 className="font-semibold text-primary mb-2">Training Times</h4>
+                <div className="space-y-1 text-sm text-muted-foreground pl-2">
+                  <p><span className="font-medium">Wednesday:</span> 6:30pm-8:30pm (Seniors)</p>
+                  <p><span className="font-medium">Saturday:</span> 10am-11am (Kids)</p>
+                  <p><span className="font-medium">Saturday:</span> 11am-12:30pm (Seniors)</p>
+                </div>
+              </div>
+              
               <a
                 href="https://www.facebook.com/ImperialJudo"
                 target="_blank"
@@ -94,8 +105,10 @@ const Navigation = () => {
                 <Facebook className="w-5 h-5" />
                 <span>Follow Us on Facebook</span>
               </a>
-              <Button className="btn-hero w-full">
-                Join Us
+              <Button className="btn-hero w-full" asChild>
+                <Link to="/contact" onClick={() => setIsOpen(false)}>
+                  Join Us
+                </Link>
               </Button>
             </div>
           </div>

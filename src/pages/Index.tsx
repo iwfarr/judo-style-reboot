@@ -183,8 +183,8 @@ const Index = () => {
                 Whether you're a beginner or returning to judo, our inclusive program 
                 welcomes adults of all ages to develop fitness and practical self-defense skills.
               </p>
-              <Button variant="outline" className="w-full">
-                Join Adult Classes
+              <Button variant="outline" className="w-full" asChild>
+                <a href="/contact">View Training Times</a>
               </Button>
             </Card>
           </div>
@@ -225,10 +225,11 @@ const Index = () => {
                       <h3 className="text-lg font-semibold text-primary mb-2">
                         Training Times
                       </h3>
-                      <p className="text-muted-foreground">
-                        Contact us for current class schedule<br />
-                        Programs for all ages and skill levels
-                      </p>
+                      <div className="text-muted-foreground space-y-1">
+                        <p><span className="font-medium">Wednesday:</span> 6:30pm-8:30pm (Seniors)</p>
+                        <p><span className="font-medium">Saturday:</span> 10am-11am (Kids)</p>
+                        <p><span className="font-medium">Saturday:</span> 11am-12:30pm (Seniors)</p>
+                      </div>
                     </div>
                   </div>
                 </div>

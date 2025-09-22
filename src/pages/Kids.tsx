@@ -42,19 +42,19 @@ const Kids = () => {
 
   const ageGroups = [
     {
-      title: "Little Dragons",
+      title: "Mini-Mons",
       age: "Ages 4-6",
       focus: "Fun, basic movements, listening skills, and following instructions",
       color: "bg-green-100 text-green-800"
     },
     {
-      title: "Young Warriors",
+      title: "Junior",
       age: "Ages 7-10", 
       focus: "Fundamental techniques, belt progression, and building friendships",
       color: "bg-blue-100 text-blue-800"
     },
     {
-      title: "Junior Champions",
+      title: "Cadet",
       age: "Ages 11-16",
       focus: "Advanced techniques, competition training, and leadership development",
       color: "bg-purple-100 text-purple-800"
@@ -76,14 +76,15 @@ const Kids = () => {
                 through the art of Olympic Judo
               </p>
               <div className="flex flex-wrap gap-4">
-                <Button className="btn-hero text-lg px-8 py-3">
-                  Start Your Child's Journey
+                <Button className="btn-hero text-lg px-8 py-3" asChild>
+                  <a href="/contact">Start Your Child's Journey</a>
                 </Button>
                 <Button 
                   variant="outline" 
                   className="text-primary-foreground border-primary-foreground hover:bg-primary-foreground hover:text-primary"
+                  asChild
                 >
-                  Watch a Class
+                  <a href="/contact">Contact Us</a>
                 </Button>
               </div>
             </div>
@@ -130,8 +131,49 @@ const Kids = () => {
         </div>
       </section>
 
-      {/* Age Groups Section */}
+      {/* Training Times Section */}
       <section className="py-16">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-12">
+            <h2 className="section-title">Training Schedule</h2>
+            <p className="text-lg text-muted-foreground">
+              Regular training sessions for all age groups
+            </p>
+          </div>
+
+          <div className="max-w-4xl mx-auto">
+            <Card className="card-elegant p-8">
+              <div className="grid md:grid-cols-2 gap-8">
+                <div>
+                  <h3 className="text-xl font-semibold text-primary mb-4">Wednesday</h3>
+                  <div className="space-y-2">
+                    <p className="text-muted-foreground">
+                      <span className="font-medium">6:30pm - 8:30pm</span><br />
+                      Seniors (Adults)
+                    </p>
+                  </div>
+                </div>
+                <div>
+                  <h3 className="text-xl font-semibold text-primary mb-4">Saturday</h3>
+                  <div className="space-y-3">
+                    <p className="text-muted-foreground">
+                      <span className="font-medium">10:00am - 11:00am</span><br />
+                      Mini-Mons & Junior (Ages 4-10)
+                    </p>
+                    <p className="text-muted-foreground">
+                      <span className="font-medium">11:00am - 12:30pm</span><br />
+                      Seniors (Adults) & Cadet (Ages 11-16)
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </Card>
+          </div>
+        </div>
+      </section>
+
+      {/* Age Groups Section */}
+      <section className="py-16 bg-muted/30">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="section-title">Programs by Age Group</h2>
@@ -159,7 +201,7 @@ const Kids = () => {
       </section>
 
       {/* Safety & Values Section */}
-      <section className="py-16 bg-muted/30">
+      <section className="py-16">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-12">
@@ -233,14 +275,17 @@ const Kids = () => {
             discipline, and lifelong skills through Olympic Judo.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
-            <Button className="btn-hero text-lg px-8 py-3">
-              Contact Us Today
+            <Button className="btn-hero text-lg px-8 py-3" asChild>
+              <a href="/contact">Contact Us Today</a>
             </Button>
             <Button 
               variant="outline" 
               className="text-primary-foreground border-primary-foreground hover:bg-primary-foreground hover:text-primary text-lg px-8 py-3"
+              asChild
             >
-              Visit Our Facebook
+              <a href="https://www.facebook.com/ImperialJudo" target="_blank" rel="noopener noreferrer">
+                Visit Our Facebook
+              </a>
             </Button>
           </div>
         </div>
