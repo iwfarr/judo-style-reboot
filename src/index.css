@@ -9,55 +9,55 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Base colors - Clean whites and deep navy */
+    /* Base Colors - Professional Red & Black Martial Arts Theme */
     --background: 0 0% 100%;
-    --foreground: 220 30% 8%;
+    --foreground: 0 0% 15%;
 
     /* Card system */
     --card: 0 0% 100%;
-    --card-foreground: 220 30% 8%;
+    --card-foreground: 0 0% 15%;
 
     /* Popover system */
     --popover: 0 0% 100%;
-    --popover-foreground: 220 30% 8%;
+    --popover-foreground: 0 0% 15%;
 
-    /* Primary - Deep Navy for strength and trust */
-    --primary: 220 50% 12%;
-    --primary-foreground: 0 0% 100%;
+    /* Primary - Deep Black for strength and tradition */
+    --primary: 0 0% 10%;
+    --primary-foreground: 0 0% 98%;
 
-    /* Secondary - Warm gold for martial arts tradition */
-    --secondary: 45 95% 58%;
-    --secondary-foreground: 220 50% 12%;
+    /* Secondary - Professional Red for energy */
+    --secondary: 0 80% 50%;
+    --secondary-foreground: 0 0% 98%;
 
     /* Muted tones */
-    --muted: 220 15% 95%;
-    --muted-foreground: 220 25% 45%;
+    --muted: 0 0% 95%;
+    --muted-foreground: 0 0% 45%;
 
-    /* Accent - Vibrant gold */
-    --accent: 45 95% 58%;
-    --accent-foreground: 220 50% 12%;
+    /* Accent - Bright Red highlights */
+    --accent: 0 85% 55%;
+    --accent-foreground: 0 0% 98%;
 
     /* Destructive */
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
 
     /* Borders and inputs */
-    --border: 220 15% 90%;
-    --input: 220 15% 90%;
-    --ring: 45 95% 58%;
+    --border: 0 0% 90%;
+    --input: 0 0% 90%;
+    --ring: 0 85% 55%;
 
     /* Design tokens */
     --radius: 0.75rem;
 
     /* Custom martial arts design tokens */
-    --hero-gradient: linear-gradient(135deg, hsl(220 50% 12%) 0%, hsl(220 40% 18%) 100%);
-    --gold-gradient: linear-gradient(135deg, hsl(45 95% 58%) 0%, hsl(45 85% 50%) 100%);
-    --text-gradient: linear-gradient(135deg, hsl(45 95% 58%) 0%, hsl(45 85% 65%) 100%);
+    --hero-gradient: linear-gradient(135deg, hsl(0 0% 10%) 0%, hsl(0 0% 18%) 100%);
+    --red-gradient: linear-gradient(135deg, hsl(0 80% 50%) 0%, hsl(0 85% 55%) 100%);
+    --text-gradient: linear-gradient(135deg, hsl(0 85% 55%) 0%, hsl(0 80% 50%) 100%);
     
     /* Shadows */
-    --shadow-soft: 0 4px 20px -2px hsl(220 50% 12% / 0.1);
-    --shadow-strong: 0 10px 40px -5px hsl(220 50% 12% / 0.2);
-    --glow-gold: 0 0 30px hsl(45 95% 58% / 0.3);
+    --shadow-soft: 0 4px 20px -2px hsl(0 0% 10% / 0.1);
+    --shadow-strong: 0 10px 40px -5px hsl(0 0% 10% / 0.2);
+    --glow-red: 0 0 30px hsl(0 85% 55% / 0.3);
 
     /* Animation */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -80,37 +80,37 @@ All colors MUST be HSL.
   }
 
   .dark {
-    /* Dark mode - Deep navy backgrounds */
-    --background: 220 50% 8%;
-    --foreground: 0 0% 100%;
+    /* Dark mode - Deep black backgrounds */
+    --background: 0 0% 8%;
+    --foreground: 0 0% 95%;
 
-    --card: 220 45% 12%;
-    --card-foreground: 0 0% 100%;
+    --card: 0 0% 12%;
+    --card-foreground: 0 0% 95%;
 
-    --popover: 220 45% 12%;
-    --popover-foreground: 0 0% 100%;
+    --popover: 0 0% 12%;
+    --popover-foreground: 0 0% 95%;
 
-    --primary: 45 95% 58%;
-    --primary-foreground: 220 50% 12%;
+    --primary: 0 85% 55%;
+    --primary-foreground: 0 0% 15%;
 
-    --secondary: 220 40% 18%;
-    --secondary-foreground: 0 0% 100%;
+    --secondary: 0 0% 18%;
+    --secondary-foreground: 0 0% 95%;
 
-    --muted: 220 40% 15%;
-    --muted-foreground: 220 15% 70%;
+    --muted: 0 0% 15%;
+    --muted-foreground: 0 0% 70%;
 
-    --accent: 45 95% 58%;
-    --accent-foreground: 220 50% 12%;
+    --accent: 0 85% 55%;
+    --accent-foreground: 0 0% 15%;
 
     --destructive: 0 75% 55%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 220 30% 20%;
-    --input: 220 30% 20%;
-    --ring: 45 95% 58%;
+    --border: 0 0% 20%;
+    --input: 0 0% 20%;
+    --ring: 0 85% 55%;
 
     /* Dark mode design tokens */
-    --hero-gradient: linear-gradient(135deg, hsl(220 50% 8%) 0%, hsl(220 45% 12%) 100%);
+    --hero-gradient: linear-gradient(135deg, hsl(0 0% 8%) 0%, hsl(0 0% 12%) 100%);
     --shadow-soft: 0 4px 20px -2px hsl(0 0% 0% / 0.3);
     --shadow-strong: 0 10px 40px -5px hsl(0 0% 0% / 0.5);
     --sidebar-background: 240 5.9% 10%;
@@ -169,14 +169,14 @@ All colors MUST be HSL.
 
   /* Button variants */
   .btn-hero {
-    background: var(--gold-gradient);
-    color: hsl(var(--primary));
+    background: var(--red-gradient);
+    color: hsl(var(--primary-foreground));
     font-weight: 600;
     transition: var(--transition-smooth);
   }
 
   .btn-hero:hover {
-    box-shadow: var(--glow-gold);
+    box-shadow: var(--glow-red);
     transform: translateY(-1px);
   }
 }

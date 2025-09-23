@@ -81,11 +81,11 @@ const Location = () => {
                       <h3 className="text-lg font-semibold text-primary mb-2">
                         Training Schedule
                       </h3>
-                      <p className="text-muted-foreground">
-                        Classes available throughout the week<br />
-                        Different sessions for various age groups<br />
-                        Contact us for the current timetable
-                      </p>
+                      <div className="text-muted-foreground space-y-1">
+                        <p><span className="font-medium">Wednesday:</span> 6:30pm-8:30pm (Seniors)</p>
+                        <p><span className="font-medium">Saturday:</span> 10am-11am (Mini-Mons & Junior)</p>
+                        <p><span className="font-medium">Saturday:</span> 11am-12:30pm (Seniors & Cadet)</p>
+                      </div>
                     </div>
                   </div>
                 </Card>

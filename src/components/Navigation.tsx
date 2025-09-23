@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { Menu, X, Facebook } from 'lucide-react';
+import logoImage from '@/assets/imperial-judo-logo.jpg';
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -23,9 +24,11 @@ const Navigation = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
-            <div className="w-10 h-10 bg-gradient-to-r from-accent to-secondary rounded-lg flex items-center justify-center font-bold text-primary">
-              IJC
-            </div>
+            <img 
+              src={logoImage} 
+              alt="Imperial Judo Club Logo" 
+              className="w-10 h-10 rounded-lg object-cover"
+            />
             <span className="text-xl font-bold text-primary hidden sm:block">
               Imperial Judo Club
             </span>
