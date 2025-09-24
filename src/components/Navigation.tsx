@@ -55,11 +55,11 @@ const Navigation = () => {
               rel="noopener noreferrer"
               className="flex items-center space-x-2 text-foreground hover:text-accent transition-colors"
             >
-              <Facebook className="w-5 h-5" />
-              <span className="hidden lg:block">Facebook</span>
+              <Facebook className="w-5 h-5 text-accent" />
+              <span className="hidden lg:block text-accent">Facebook</span>
             </a>
-            <Button className="btn-hero">
-              Join Us
+            <Button className="btn-hero" asChild>
+              <Link to="/contact">Contact Us</Link>
             </Button>
           </div>
 
@@ -92,11 +92,11 @@ const Navigation = () => {
               {/* Training Times Section */}
               <div className="py-2 border-t border-border">
                 <h4 className="font-semibold text-primary mb-2">Training Times</h4>
-                <div className="space-y-1 text-sm text-muted-foreground pl-2">
-                  <p><span className="font-medium">Wednesday:</span> 6:30pm-8:30pm (Seniors)</p>
-                  <p><span className="font-medium">Saturday:</span> 10am-11am (Kids)</p>
-                  <p><span className="font-medium">Saturday:</span> 11am-12:30pm (Seniors)</p>
-                </div>
+                  <div className="space-y-1 text-sm text-muted-foreground pl-2">
+                    <p><span className="font-medium">Wednesday:</span> 6:30pm-8:30pm (Seniors & Cadets)</p>
+                    <p><span className="font-medium">Saturday:</span> 10am-11am (Mini-Mons & Junior)</p>
+                    <p><span className="font-medium">Saturday:</span> 11am-12:30pm (Seniors & Cadets)</p>
+                  </div>
               </div>
               
               <a
@@ -105,12 +105,12 @@ const Navigation = () => {
                 rel="noopener noreferrer"
                 className="flex items-center space-x-2 text-foreground hover:text-accent transition-colors"
               >
-                <Facebook className="w-5 h-5" />
-                <span>Follow Us on Facebook</span>
+                <Facebook className="w-5 h-5 text-accent" />
+                <span className="text-accent">Follow Us on Facebook</span>
               </a>
               <Button className="btn-hero w-full" asChild>
                 <Link to="/contact" onClick={() => setIsOpen(false)}>
-                  Join Us
+                  Contact Us
                 </Link>
               </Button>
             </div>

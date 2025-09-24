@@ -149,7 +149,7 @@ const Kids = () => {
                   <div className="space-y-2">
                     <p className="text-muted-foreground">
                       <span className="font-medium">6:30pm - 8:30pm</span><br />
-                      Seniors (Adults)
+                      Seniors & Cadets (Adults & Ages 11-16)
                     </p>
                   </div>
                 </div>

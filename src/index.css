@@ -138,6 +138,11 @@ All colors MUST be HSL.
     @apply text-5xl md:text-7xl font-bold bg-gradient-to-r from-accent to-secondary bg-clip-text text-transparent leading-tight;
   }
 
+  .martial-arts-font {
+    font-family: 'Creepster', cursive;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+
   .section-title {
     @apply text-3xl md:text-4xl font-bold text-primary mb-6;
   }

@@ -55,7 +55,7 @@ const Index = () => {
             <Badge className="bg-accent text-primary mb-6 text-sm px-4 py-2">
               Established 1982 • 40+ Years of Excellence
             </Badge>
-            <h1 className="hero-text mb-6">
+            <h1 className="hero-text martial-arts-font mb-6">
               Imperial Judo Club
             </h1>
             <p className="text-xl md:text-2xl opacity-90 mb-8 leading-relaxed">
@@ -63,18 +63,8 @@ const Index = () => {
               Building strength, discipline, and community through Olympic Judo.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
-              <Button className="btn-hero text-lg px-8 py-3">
-                Join Our Club
-              </Button>
-              <Button 
-                variant="outline" 
-                className="text-primary-foreground border-primary-foreground hover:bg-primary-foreground hover:text-primary text-lg px-8 py-3"
-                asChild
-              >
-                <a href="https://www.facebook.com/ImperialJudo" target="_blank" rel="noopener noreferrer">
-                  <Facebook className="w-5 h-5 mr-2" />
-                  Message Us
-                </a>
+              <Button className="btn-hero text-lg px-8 py-3" asChild>
+                <a href="/contact">Contact Us</a>
               </Button>
             </div>
           </div>
@@ -226,7 +216,7 @@ const Index = () => {
                         Training Times
                       </h3>
                       <div className="text-muted-foreground space-y-1">
-                        <p><span className="font-medium">Wednesday:</span> 6:30pm-8:30pm (Seniors)</p>
+                        <p><span className="font-medium">Wednesday:</span> 6:30pm-8:30pm (Seniors & Cadets)</p>
                         <p><span className="font-medium">Saturday:</span> 10am-11am (Kids)</p>
                         <p><span className="font-medium">Saturday:</span> 11am-12:30pm (Seniors)</p>
                       </div>
@@ -243,9 +233,7 @@ const Index = () => {
                     to our friendly community.
                   </p>
                   <Button className="btn-hero w-full mb-3" asChild>
-                    <a href="https://www.facebook.com/ImperialJudo" target="_blank" rel="noopener noreferrer">
-                      Message Us on Facebook
-                    </a>
+                    <a href="/contact">Contact Us</a>
                   </Button>
                   <p className="text-sm text-muted-foreground text-center">
                     Or come along to watch a class anytime
@@ -268,9 +256,7 @@ const Index = () => {
             environment. All ages and abilities welcome.
           </p>
           <Button className="btn-hero text-lg px-8 py-3" asChild>
-            <a href="https://www.facebook.com/ImperialJudo" target="_blank" rel="noopener noreferrer">
-              Start Your Journey Today
-            </a>
+            <a href="/contact">Contact Us</a>
           </Button>
         </div>
       </section>
