@@ -12,7 +12,7 @@ const Contact = () => {
       {/* Hero Section */}
       <section className="hero-section py-16 lg:py-20 text-primary-foreground">
         <div className="container mx-auto px-4 text-center">
-          <h1 className="hero-text mb-6">
+          <h1 className="hero-text martial-arts-font mb-6">
             Contact Us
           </h1>
           <p className="text-xl md:text-2xl opacity-90 max-w-2xl mx-auto">
@@ -64,7 +64,7 @@ const Contact = () => {
                         Training Times
                       </h3>
                       <div className="text-muted-foreground space-y-1">
-                        <p><span className="font-medium">Wednesday:</span> 6:30pm-8:30pm (Seniors)</p>
+                        <p><span className="font-medium">Wednesday:</span> 6:30pm-8:30pm (Seniors & Cadets)</p>
                         <p><span className="font-medium">Saturday:</span> 10am-11am (Kids: Mini-Mons & Junior)</p>
                         <p><span className="font-medium">Saturday:</span> 11am-12:30pm (Seniors & Cadet)</p>
                       </div>

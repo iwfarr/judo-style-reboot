@@ -11,7 +11,7 @@ const History = () => {
       {/* Hero Section */}
       <section className="hero-section py-20 text-primary-foreground">
         <div className="container mx-auto px-4 text-center">
-          <h1 className="hero-text mb-6">Our History</h1>
+          <h1 className="hero-text martial-arts-font mb-6">Our History</h1>
           <p className="text-xl md:text-2xl opacity-90 max-w-3xl mx-auto">
             Four decades of excellence in judo education and community building
           </p>

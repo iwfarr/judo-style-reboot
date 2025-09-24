@@ -70,7 +70,7 @@ const Kids = () => {
         <div className="container mx-auto px-4">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h1 className="hero-text mb-6">Kids Judo Program</h1>
+              <h1 className="hero-text martial-arts-font mb-6">Kids Judo Program</h1>
               <p className="text-xl md:text-2xl opacity-90 mb-8">
                 Building confident, respectful, and skilled young martial artists 
                 through the art of Olympic Judo
