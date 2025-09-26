@@ -139,9 +139,10 @@ All colors MUST be HSL.
   }
 
   .martial-arts-font {
-    font-family: 'Righteous', cursive;
+    font-family: 'Orbitron', 'Righteous', cursive;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
     letter-spacing: 0.05em;
+    font-weight: 900;
   }
 
   .section-title {
