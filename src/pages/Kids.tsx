@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
 import { Card } from '@/components/ui/card';
@@ -42,20 +43,14 @@ const Kids = () => {
 
   const ageGroups = [
     {
-      title: "Mini-Mons",
-      age: "Ages 4-6",
+      title: "Kids 5-10 years",
+      age: "Ages 5-10",
       focus: "Fun, basic movements, listening skills, and following instructions",
       color: "bg-green-100 text-green-800"
     },
     {
-      title: "Junior",
-      age: "Ages 7-10", 
-      focus: "Fundamental techniques, belt progression, and building friendships",
-      color: "bg-blue-100 text-blue-800"
-    },
-    {
-      title: "Cadet",
-      age: "Ages 11-16",
+      title: "11 years+",
+      age: "Ages 11+", 
       focus: "Advanced techniques, competition training, and leadership development",
       color: "bg-purple-100 text-purple-800"
     }
@@ -77,14 +72,14 @@ const Kids = () => {
               </p>
               <div className="flex flex-wrap gap-4">
                 <Button className="btn-hero text-lg px-8 py-3" asChild>
-                  <a href="/contact">Start Your Child's Journey</a>
+                  <Link to="/contact">Start Your Child's Journey</Link>
                 </Button>
                 <Button 
                   variant="outline" 
                   className="text-primary-foreground border-primary-foreground hover:bg-primary-foreground hover:text-primary"
                   asChild
                 >
-                  <a href="/contact">Contact Us</a>
+                  <Link to="/contact">Contact Us</Link>
                 </Button>
               </div>
             </div>
@@ -149,7 +144,7 @@ const Kids = () => {
                   <div className="space-y-2">
                     <p className="text-muted-foreground">
                       <span className="font-medium">6:30pm - 8:30pm</span><br />
-                      Seniors & Cadets (Adults & Ages 11-16)
+                      Seniors & 11 years+ (Adults & Ages 11+)
                     </p>
                   </div>
                 </div>
@@ -158,11 +153,11 @@ const Kids = () => {
                   <div className="space-y-3">
                     <p className="text-muted-foreground">
                       <span className="font-medium">10:00am - 11:00am</span><br />
-                      Mini-Mons & Junior (Ages 4-10)
+                      Kids 5-10 years (Ages 5-10)
                     </p>
                     <p className="text-muted-foreground">
                       <span className="font-medium">11:00am - 12:30pm</span><br />
-                      Seniors (Adults) & Cadet (Ages 11-16)
+                      Seniors (Adults) & 11 years+ (Ages 11+)
                     </p>
                   </div>
                 </div>
@@ -276,7 +271,7 @@ const Kids = () => {
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <Button className="btn-hero text-lg px-8 py-3" asChild>
-              <a href="/contact">Contact Us Today</a>
+              <Link to="/contact">Contact Us Today</Link>
             </Button>
             <Button 
               variant="outline" 

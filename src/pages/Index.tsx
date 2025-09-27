@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
 import ContactForm from '@/components/ContactForm';
@@ -64,7 +65,7 @@ const Index = () => {
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <Button className="btn-hero text-lg px-8 py-3" asChild>
-                <a href="/contact">Contact Us</a>
+                <Link to="/contact">Contact Us</Link>
               </Button>
             </div>
           </div>
@@ -158,7 +159,7 @@ const Index = () => {
                 in a safe, fun environment. Perfect for developing character and making friends.
               </p>
               <Button variant="outline" className="w-full" asChild>
-                <a href="/kids">Learn More About Kids Program</a>
+                <Link to="/kids">Learn More About Kids Program</Link>
               </Button>
             </Card>
 
@@ -174,7 +175,7 @@ const Index = () => {
                 welcomes adults of all ages to develop fitness and practical self-defense skills.
               </p>
               <Button variant="outline" className="w-full" asChild>
-                <a href="/contact">View Training Times</a>
+                <Link to="/contact">View Training Times</Link>
               </Button>
             </Card>
           </div>
@@ -216,9 +217,9 @@ const Index = () => {
                         Training Times
                       </h3>
                       <div className="text-muted-foreground space-y-1">
-                        <p><span className="font-medium">Wednesday:</span> 6:30pm-8:30pm (Seniors & Cadets)</p>
-                        <p><span className="font-medium">Saturday:</span> 10am-11am (Kids)</p>
-                        <p><span className="font-medium">Saturday:</span> 11am-12:30pm (Seniors)</p>
+                        <p><span className="font-medium">Wednesday:</span> 6:30pm-8:30pm (Seniors & 11 years+)</p>
+                        <p><span className="font-medium">Saturday:</span> 10am-11am (Kids 5-10 years)</p>
+                        <p><span className="font-medium">Saturday:</span> 11am-12:30pm (Seniors & 11 years+)</p>
                       </div>
                     </div>
                   </div>
@@ -233,7 +234,7 @@ const Index = () => {
                     to our friendly community.
                   </p>
                   <Button className="btn-hero w-full mb-3" asChild>
-                    <a href="/contact">Contact Us</a>
+                    <Link to="/contact">Contact Us</Link>
                   </Button>
                   <p className="text-sm text-muted-foreground text-center">
                     Or come along to watch a class anytime
@@ -256,7 +257,7 @@ const Index = () => {
             environment. All ages and abilities welcome.
           </p>
           <Button className="btn-hero text-lg px-8 py-3" asChild>
-            <a href="/contact">Contact Us</a>
+            <Link to="/contact">Contact Us</Link>
           </Button>
         </div>
       </section>

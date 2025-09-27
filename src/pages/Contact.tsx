@@ -64,9 +64,9 @@ const Contact = () => {
                         Training Times
                       </h3>
                       <div className="text-muted-foreground space-y-1">
-                        <p><span className="font-medium">Wednesday:</span> 6:30pm-8:30pm (Seniors & Cadets)</p>
-                        <p><span className="font-medium">Saturday:</span> 10am-11am (Kids: Mini-Mons & Junior)</p>
-                        <p><span className="font-medium">Saturday:</span> 11am-12:30pm (Seniors & Cadets)</p>
+                        <p><span className="font-medium">Wednesday:</span> 6:30pm-8:30pm (Seniors & 11 years+)</p>
+                        <p><span className="font-medium">Saturday:</span> 10am-11am (Kids 5-10 years)</p>
+                        <p><span className="font-medium">Saturday:</span> 11am-12:30pm (Seniors & 11 years+)</p>
                       </div>
                     </div>
                   </div>
